@@ -11,12 +11,12 @@ This is a extensive and continuously updated compilation of graph SSL literature
   * [Links](#links)
   * [Context](#context)
 * Macroscopic pretexts
-  * [Long-range similarities](#longrange-similarities)
+  * [Long-range similarities](#long-range-similarities)
   * [Motifs](#motifs)
   * [Clusters](#clusters)
   * [Global structure](#global-structure)
   * [Manifolds](#manifolds)
-* [Task adaptation strategies](task-adaptation-strategies)
+* [Task adaptation strategies](#task-adaptation-strategies)
 
 # Relevant surveys
 
@@ -161,7 +161,7 @@ This is a extensive and continuously updated compilation of graph SSL literature
 * Context discrimination: to distinguish between contextual nodes and non-contextual nodes (LE stands for Laplacian Eigenmaps objective)
 * Factorized context discrimination: to maximize the log-likelihood of context representations given the corresponding central node conditioned on multiple disentangled latent factors
 * Contextual subgraph discrimination: to distinguish between representations aggregated from different contextual subgraphs (maybe from different receptive fields)
-* Neighbor feature prediction: node feature prediction but to reconstruct the features of $k$-hop neighbors instead
+* Neighbor feature prediction: node feature prediction but to reconstruct the features of k-hop neighbors instead
 * Contextual property prediction: to predict the properties of contextual subgraphs
 
 | Paper                                                                                                                                                          | Venue      | Pretext                                                      | Downstream                                                   | Code                                                         |
