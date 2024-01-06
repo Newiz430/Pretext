@@ -31,10 +31,10 @@ This is a extensive and continuously updated compilation of graph SSL literature
 | [A Systematic Survey of Chemical Pre-trained Models](https://arxiv.org/abs/2210.16484) | IJCAI'23   |
 | [Graph Prompt Learning: A Comprehensive Survey and Beyond](https://arxiv.org/abs/2311.16534) | arXiv:2311 |
 
+# Node features
+
 <details close>
     <summary>Node features</summary>
-
-# Node features
 
 ## Feature prediction
 
@@ -102,10 +102,10 @@ This is a extensive and continuously updated compilation of graph SSL literature
 
 </details>
 
+# Node properties
+
 <details close>
     <summary>Node properties</summary>
-
-# Node properties
 
 * Property prediction: a regression task to predict the property of a node (e.g. degree)
 * Centrality score ranking: to estimate whether the centrality score of a node is greater/lower than that of another node
@@ -121,10 +121,10 @@ This is a extensive and continuously updated compilation of graph SSL literature
 
 </details>
 
+# Links
+
 <details close>
     <summary>Links</summary>
-
-# Links
 
 * Link prediction: a generally binary classification task that predicts if two nodes are connected by a link
 * Masked link prediction: to predict the masked links by node representations propagated on the unmasked graph. It is "autoregressive" if the predicted links are generated one-by-one
@@ -153,10 +153,10 @@ This is a extensive and continuously updated compilation of graph SSL literature
 
 </details>
 
+# Context
+
 <details close>
     <summary>Context</summary>
-
-# Context
 
 * Context discrimination: to distinguish between contextual nodes and non-contextual nodes (LE stands for Laplacian Eigenmaps objective)
 * Factorized context discrimination: to maximize the log-likelihood of context representations given the corresponding central node conditioned on multiple disentangled latent factors
@@ -191,10 +191,10 @@ This is a extensive and continuously updated compilation of graph SSL literature
 
 </details>
 
+# Long-range similarities
+
 <details close>
     <summary>Long-range similarities</summary>
-
-# Long-range similarities
 
 * Similarity prediction: to predict a similarity matrix between nodes. The pairwise similarity can be defined by shortest path distance, PageRank, Katz index, Jaccard coefficient, cosine similarity of node representations, etc
 * Masked path prediction: similar to masked link prediction, but the link are masked in paths
@@ -214,10 +214,10 @@ This is a extensive and continuously updated compilation of graph SSL literature
 
 </details>
 
+# Motifs
+
 <details close>
     <summary>Motifs</summary>
-
-# Motifs
 
 * Motif prediction: to assign each node (or supernode in the fragment graph) a motif pseudo-label given by unsupervised motif discovery algorithms (e.g. RDKit) and learn to predict them. It is "autoregressive" if the predicted supernodes are generated one-by-one
 * Motif-based masked feature prediction: similar to masked feature prediction, but the features are masked in motifs
@@ -235,10 +235,10 @@ This is a extensive and continuously updated compilation of graph SSL literature
 
 </details>
 
+# Clusters
+
 <details close>
     <summary>Clusters</summary>
-
-# Clusters
 
 * Synthetic graph discrimination: binary classification between two synthetic graphs with different synthesizers (Erdos-Renyi generator / SBM generator)
 * Node clustering: to assign each node a cluster centroid (prototype) and - i) minimize the distance between nodes and their corresponding centroids in the latent space; or ii) minimize the distance between the learned centroids and the ground-truth centroids given by unsupervised feature clustering algorithms (e.g. K-means, DeepCluster)
@@ -269,10 +269,10 @@ This is a extensive and continuously updated compilation of graph SSL literature
 
 </details>
 
+# Global structure
+
 <details close>
     <summary>Global structure</summary>
-
-# Global structure
 
 * Global-local instance discrimination: instance discrimination between the representation of each node and a global representation vector, usually aggregated from the whole graph by a readout function
 * Group discrimination: a simplified global-local instance discrimination that binarily classifies if a node belongs to the original or the perturbed graph
@@ -293,10 +293,10 @@ This is a extensive and continuously updated compilation of graph SSL literature
 
 </details>
 
+# Manifolds
+
 <details close>
     <summary>Manifolds</summary>
-
-# Manifolds
 
 * Cross-manifold discrimination: to perform instance discrimination between different manifolds (e.g. Euclidean vs. Hyperbolic)
 * Ricci curvature prediction: to predict the aggregated Ricci curvature of each node's neighborhood
@@ -313,10 +313,10 @@ This is a extensive and continuously updated compilation of graph SSL literature
 
 </details>
 
+# Task adaptation strategies
+
 <details close>
     <summary>Task adaptation strategies</summary>
-
-# Task adaptation strategies
 
 * Multi-task learning: to combine different pretexts and jointly learn them for task generalizable performance
 * Fine-tuning: to jointly learn the downstream branches as well as the original pre-trained model
