@@ -2,11 +2,11 @@
 
 This is a extensive and continuously updated compilation of graph SSL literature categorized by the knowledge-based taxonomy, proposed by our paper "[Self-Supervised Pre-Training of Graph Foundation Models: A Knowledge-Based Survey]". Here every pretext of each paper is listed and briefly explained. You can find all pretexts and their corresponding papers with detailed metadata below, including additional pretexts and literature not listed in our paper. The aim of this list is to provide interpretability of self-supervised graph pre-training from the perspective of knowledge mining, which assists in designing more effective pretexts for pre-training on graph foundation models, such as GNNs, graph Transformers, LLMs for graphs, and future large graph models.
 
-A kind reminder: to search for a certain paper, type the title or the abbreviation of the proposed method (recommended) into the browser search bar (Ctrl + F).
+A kind reminder: to search for a certain paper, type the title or the abbreviation of the proposed method (recommended) into the browser search bar (Ctrl + F). Some papers may fall under multiple sections.
 
 # Contents
 
-* [Relevant surveys & empirical studies](#relevant-surveys-empirical-studies)
+* [Relevant surveys and empirical studies](#relevant-surveys-and-empirical-studies)
 * Microscopic pretexts
   * [Node features](#node-features)
   * [Node properties](#node-properties)
@@ -20,7 +20,7 @@ A kind reminder: to search for a certain paper, type the title or the abbreviati
   * [Manifolds](#manifolds)
 * [Task adaptation strategies](#task-adaptation-strategies)
 
-# Relevant surveys & empirical studies
+# Relevant surveys and empirical studies
 
 > Note: :spider_web: graph-related topic; :globe_with_meridians: LLM-related topic; :microscope: empirical study
 
