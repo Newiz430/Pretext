@@ -60,7 +60,7 @@ A kind reminder: to search for a certain paper, type the title or the abbreviati
 
 # Node features
 
-<details>
+<details open>
     <summary>Node features</summary>
 
 ## Feature prediction
@@ -152,7 +152,7 @@ A kind reminder: to search for a certain paper, type the title or the abbreviati
 
 # Node properties
 
-<details>
+<details open>
     <summary>Node properties</summary>
 
 * Property prediction: a regression task to predict the property of a node (e.g. degree)
@@ -171,7 +171,7 @@ A kind reminder: to search for a certain paper, type the title or the abbreviati
 
 # Links
 
-<details>
+<details open>
     <summary>Links</summary>
 
 * Link prediction: a generally binary classification task that predicts if two nodes are connected by a link
@@ -216,7 +216,7 @@ A kind reminder: to search for a certain paper, type the title or the abbreviati
 
 # Context
 
-<details>
+<details open>
     <summary>Context</summary>
 
 * Context discrimination: to distinguish between contextual nodes and non-contextual nodes (LE stands for Laplacian Eigenmaps objective)
@@ -268,7 +268,7 @@ A kind reminder: to search for a certain paper, type the title or the abbreviati
 
 # Long-range similarities
 
-<details>
+<details open>
     <summary>Long-range similarities</summary>
 
 * Similarity prediction: to predict a similarity matrix between nodes. The pairwise similarity can be defined by shortest path distance, PageRank, Katz index, Jaccard coefficient, $\ell_2$ distance & cosine similarity between output representations / input-output, etc
@@ -298,7 +298,7 @@ A kind reminder: to search for a certain paper, type the title or the abbreviati
 
 # Motifs
 
-<details>
+<details open>
     <summary>Motifs</summary>
 
 * Motif prediction: to assign each node (or supernode in the fragment graph) a motif pseudo-label given by unsupervised motif discovery algorithms (e.g. RDKit) and learn to predict them. It is "autoregressive" if the predicted supernodes are generated one-by-one
@@ -321,7 +321,7 @@ A kind reminder: to search for a certain paper, type the title or the abbreviati
 
 # Clusters
 
-<details>
+<details open>
     <summary>Clusters</summary>
 
 * Synthetic graph discrimination: binary classification between two synthetic graphs with different synthesizers (Erdős-Rényi generator / SBM generator)
@@ -356,7 +356,7 @@ A kind reminder: to search for a certain paper, type the title or the abbreviati
 
 # Global structure
 
-<details>
+<details open>
     <summary>Global structure</summary>
 
 * Global-local instance discrimination: instance discrimination between the representation of each node and a global representation vector, usually aggregated from the whole graph by a readout function
@@ -410,7 +410,7 @@ A kind reminder: to search for a certain paper, type the title or the abbreviati
 
 # Manifolds
 
-<details>
+<details open>
     <summary>Manifolds</summary>
 
 * Cross-manifold discrimination: to perform instance discrimination between different manifolds (e.g. Euclidean vs. Hyperbolic)
@@ -431,7 +431,7 @@ A kind reminder: to search for a certain paper, type the title or the abbreviati
 
 # Task adaptation strategies
 
-<details>
+<details open>
     <summary>Task adaptation strategies</summary>
 
 * Multi-task learning: to combine different pretexts and jointly learn them for task generalizable performance
