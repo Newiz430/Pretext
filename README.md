@@ -2,6 +2,8 @@
 
 This is a extensive and continuously updated compilation of graph SSL literature categorized by the knowledge-based taxonomy, proposed by our paper "[Self-Supervised Pre-Training of Graph Foundation Models: A Knowledge-Based Survey]". Here every pretext of each paper is listed and briefly explained. You can find all pretexts and their corresponding papers with detailed metadata below, including additional pretexts and literature not listed in our paper. The aim of this list is to provide interpretability of self-supervised graph pre-training from the perspective of knowledge mining, which assists in designing more effective pretexts for pre-training on graph foundation models, such as GNNs, graph Transformers, LLMs for graphs, and future large graph models.
 
+A kind reminder: to search for a certain paper, type the title or the abbreviation of the proposed method (recommended) into the browser search bar (Ctrl + F).
+
 # Contents
 
 * [Relevant surveys & empirical studies](#relevant-surveys-empirical-studies)
@@ -22,43 +24,43 @@ This is a extensive and continuously updated compilation of graph SSL literature
 
 > Note: :spider_web: graph-related topic; :globe_with_meridians: LLM-related topic; :microscope: empirical study
 
-| Paper                                                        |      | Venue                             |
-| ------------------------------------------------------------ | ---- | --------------------------------- |
-| [Pre-trained Models for Natural Language Processing: A Survey](https://arxiv.org/abs/2003.08271) |      | SCTS'20                           |
-| [Self-supervised Learning on Graphs: Deep Insights and New Direction](https://arxiv.org/abs/2006.10141):spider_web::microscope: |      | arXiv:2006                        |
-| [Pretrained Language Models for Text Generation: A Survey](https://arxiv.org/abs/2201.05273):globe_with_meridians: |      | IJCAI'21                          |
-| [An Empirical Study of Graph Contrastive Learning](https://arxiv.org/abs/2109.01116):spider_web::microscope: |      | NeurIPS'21                        |
-| [Self-supervised Learning: Generative or Contrastive](https://arxiv.org/abs/2006.08218):spider_web: |      | TKDE'21                           |
-| [Self-supervised Learning on Graphs: Contrastive, Generative, or Predictive](https://arxiv.org/abs/2105.07342):spider_web: |      | TKDE'21                           |
-| [A Survey on Contrastive Self-Supervised Learning](https://arxiv.org/abs/2011.00362) |      | Technologies'21                   |
-| [Pre-Trained Models: Past, Present and Future](https://arxiv.org/abs/2106.07139):globe_with_meridians: |      | AI Open'21                        |
-| [A Survey of Pretrained Language Models](https://link.springer.com/chapter/10.1007/978-3-031-10986-7_36):globe_with_meridians: |      | KSEM'22                           |
-| [A Survey of Pretraining on Graphs: Taxonomy, Methods, and Applications](https://arxiv.org/abs/2202.07893):spider_web: |      | arXiv:2202                        |
-| [A Survey on Masked Autoencoder for Self-supervised Learning in Vision and Beyond](https://arxiv.org/abs/2208.00173) |      | arXiv:2208                        |
-| [Contrastive Self-Supervised Learning: A Survey on Different Architectures](https://ieeexplore.ieee.org/abstract/document/9773725) |      | ICAI'22                           |
-| [Self-Supervised Learning of Graph Neural Networks: A Unified Review](https://arxiv.org/abs/2102.10757):spider_web: |      | TPAMI'22                          |
-| [Graph Self-Supervised Learning: A Survey](https://arxiv.org/abs/2103.00111):spider_web: |      | TKDE'22                           |
-| [A Systematic Survey of Chemical Pre-trained Models](https://arxiv.org/abs/2210.16484):spider_web: |      | IJCAI'23                          |
-| [Graph Meets LLMs: Towards Large Graph Models](https://arxiv.org/abs/2308.14522):spider_web::globe_with_meridians: |      | NeurIPS Workshop (GLFrontiers)'23 |
-| [Can LLMs Effectively Leverage Structural Information for Graph Learning: When and Why](https://arxiv.org/abs/2309.16595):spider_web::globe_with_meridians::microscope: |      | NeurIPS Workshop (GLFrontiers)'23 |
-| [Talk like a Graph: Encoding Graphs for Large Language Models](https://arxiv.org/abs/2310.04560):spider_web::globe_with_meridians::microscope: |      | NeurIPS Workshop (GLFrontiers)'23 |
-| [Exploring the Potential of Large Language Models (LLMs) in Learning on Graphs](https://arxiv.org/abs/2307.03393):spider_web::globe_with_meridians::microscope: |      | NeurIPS Workshop (GLFrontiers)'23 |
-| [Self-supervised Learning: A Succinct Review](https://link.springer.com/article/10.1007/s11831-023-09884-2) |      | Arch. Comput. Methods Eng.'23     |
-| [Self-Supervised Learning for Recommender Systems: A Survey](https://arxiv.org/abs/2203.15876) |      | TKDE'23                           |
-| [A Survey on Self-supervised Learning: Algorithms, Applications, and Future Trends](https://arxiv.org/abs/2301.05712) |      | arXiv:2301                        |
-| [To Compress or Not to Compress - Self-Supervised Learning and Information Theory: A Review](https://arxiv.org/abs/2304.09355) |      | arXiv:2304                        |
-| [Can Language Models Solve Graph Problems in Natural Language?](https://arxiv.org/abs/2305.10037):spider_web::globe_with_meridians::microscope: |      | arXiv:2305                        |
-| [GPT4Graph: Can Large Language Models Understand Graph Structured Data? An Empirical Evaluation and Benchmarking](https://arxiv.org/abs/2305.15066):spider_web::globe_with_meridians::microscope: |      | arXiv:2305                        |
-| [Integrating Graphs with Large Language Models: Methods and Prospects](https://arxiv.org/abs/2310.05499):spider_web::globe_with_meridians: |      | arXiv:2310                        |
-| [Towards Graph Foundation Models: A Survey and Beyond](https://arxiv.org/abs/2310.11829):spider_web::globe_with_meridians: |      | arXiv:2310                        |
-| [A Survey of Graph Meets Large Language Model: Progress and Future Directions](https://arxiv.org/abs/2311.12399):spider_web::globe_with_meridians: |      | arXiv:2311                        |
-| [Graph Prompt Learning: A Comprehensive Survey and Beyond](https://arxiv.org/abs/2311.16534):spider_web::globe_with_meridians: |      | arXiv:2311                        |
-| [Large Language Models on Graphs: A Comprehensive Survey](https://arxiv.org/abs/2312.02783):spider_web::globe_with_meridians: |      | arXiv:2312                        |
-| [Masked Modeling for Self-supervised Representation Learning on Vision and Beyond](https://arxiv.org/abs/2401.00897) |      | arXiv:2401                        |
+| Paper                                                        | Venue                             |
+| ------------------------------------------------------------ | --------------------------------- |
+| [Pre-trained Models for Natural Language Processing: A Survey](https://arxiv.org/abs/2003.08271) | SCTS'20                           |
+| [Self-supervised Learning on Graphs: Deep Insights and New Direction](https://arxiv.org/abs/2006.10141):spider_web::microscope: | arXiv:2006                        |
+| [Pretrained Language Models for Text Generation: A Survey](https://arxiv.org/abs/2201.05273):globe_with_meridians: | IJCAI'21                          |
+| [An Empirical Study of Graph Contrastive Learning](https://arxiv.org/abs/2109.01116):spider_web::microscope: | NeurIPS'21                        |
+| [Self-supervised Learning: Generative or Contrastive](https://arxiv.org/abs/2006.08218):spider_web: | TKDE'21                           |
+| [Self-supervised Learning on Graphs: Contrastive, Generative, or Predictive](https://arxiv.org/abs/2105.07342):spider_web: | TKDE'21                           |
+| [A Survey on Contrastive Self-Supervised Learning](https://arxiv.org/abs/2011.00362) | Technologies'21                   |
+| [Pre-Trained Models: Past, Present and Future](https://arxiv.org/abs/2106.07139):globe_with_meridians: | AI Open'21                        |
+| [A Survey of Pretrained Language Models](https://link.springer.com/chapter/10.1007/978-3-031-10986-7_36):globe_with_meridians: | KSEM'22                           |
+| [A Survey of Pretraining on Graphs: Taxonomy, Methods, and Applications](https://arxiv.org/abs/2202.07893):spider_web: | arXiv:2202                        |
+| [A Survey on Masked Autoencoder for Self-supervised Learning in Vision and Beyond](https://arxiv.org/abs/2208.00173) | arXiv:2208                        |
+| [Contrastive Self-Supervised Learning: A Survey on Different Architectures](https://ieeexplore.ieee.org/abstract/document/9773725) | ICAI'22                           |
+| [Self-Supervised Learning of Graph Neural Networks: A Unified Review](https://arxiv.org/abs/2102.10757):spider_web: | TPAMI'22                          |
+| [Graph Self-Supervised Learning: A Survey](https://arxiv.org/abs/2103.00111):spider_web: | TKDE'22                           |
+| [A Systematic Survey of Chemical Pre-trained Models](https://arxiv.org/abs/2210.16484):spider_web: | IJCAI'23                          |
+| [Graph Meets LLMs: Towards Large Graph Models](https://arxiv.org/abs/2308.14522):spider_web::globe_with_meridians: | NeurIPS Workshop (GLFrontiers)'23 |
+| [Can LLMs Effectively Leverage Structural Information for Graph Learning: When and Why](https://arxiv.org/abs/2309.16595):spider_web::globe_with_meridians::microscope: | NeurIPS Workshop (GLFrontiers)'23 |
+| [Talk like a Graph: Encoding Graphs for Large Language Models](https://arxiv.org/abs/2310.04560):spider_web::globe_with_meridians::microscope: | NeurIPS Workshop (GLFrontiers)'23 |
+| [Exploring the Potential of Large Language Models (LLMs) in Learning on Graphs](https://arxiv.org/abs/2307.03393):spider_web::globe_with_meridians::microscope: | NeurIPS Workshop (GLFrontiers)'23 |
+| [Self-supervised Learning: A Succinct Review](https://link.springer.com/article/10.1007/s11831-023-09884-2) | Arch. Comput. Methods Eng.'23     |
+| [Self-Supervised Learning for Recommender Systems: A Survey](https://arxiv.org/abs/2203.15876) | TKDE'23                           |
+| [A Survey on Self-supervised Learning: Algorithms, Applications, and Future Trends](https://arxiv.org/abs/2301.05712) | arXiv:2301                        |
+| [To Compress or Not to Compress - Self-Supervised Learning and Information Theory: A Review](https://arxiv.org/abs/2304.09355) | arXiv:2304                        |
+| [Can Language Models Solve Graph Problems in Natural Language?](https://arxiv.org/abs/2305.10037):spider_web::globe_with_meridians::microscope: | arXiv:2305                        |
+| [GPT4Graph: Can Large Language Models Understand Graph Structured Data? An Empirical Evaluation and Benchmarking](https://arxiv.org/abs/2305.15066):spider_web::globe_with_meridians::microscope: | arXiv:2305                        |
+| [Integrating Graphs with Large Language Models: Methods and Prospects](https://arxiv.org/abs/2310.05499):spider_web::globe_with_meridians: | arXiv:2310                        |
+| [Towards Graph Foundation Models: A Survey and Beyond](https://arxiv.org/abs/2310.11829):spider_web::globe_with_meridians: | arXiv:2310                        |
+| [A Survey of Graph Meets Large Language Model: Progress and Future Directions](https://arxiv.org/abs/2311.12399):spider_web::globe_with_meridians: | arXiv:2311                        |
+| [Graph Prompt Learning: A Comprehensive Survey and Beyond](https://arxiv.org/abs/2311.16534):spider_web::globe_with_meridians: | arXiv:2311                        |
+| [Large Language Models on Graphs: A Comprehensive Survey](https://arxiv.org/abs/2312.02783):spider_web::globe_with_meridians: | arXiv:2312                        |
+| [Masked Modeling for Self-supervised Representation Learning on Vision and Beyond](https://arxiv.org/abs/2401.00897) | arXiv:2401                        |
 
 # Node features
 
-<details close>
+<details>
     <summary>Node features</summary>
 
 ## Feature prediction
@@ -150,7 +152,7 @@ This is a extensive and continuously updated compilation of graph SSL literature
 
 # Node properties
 
-<details close>
+<details>
     <summary>Node properties</summary>
 
 * Property prediction: a regression task to predict the property of a node (e.g. degree)
@@ -169,7 +171,7 @@ This is a extensive and continuously updated compilation of graph SSL literature
 
 # Links
 
-<details close>
+<details>
     <summary>Links</summary>
 
 * Link prediction: a generally binary classification task that predicts if two nodes are connected by a link
@@ -214,7 +216,7 @@ This is a extensive and continuously updated compilation of graph SSL literature
 
 # Context
 
-<details close>
+<details>
     <summary>Context</summary>
 
 * Context discrimination: to distinguish between contextual nodes and non-contextual nodes (LE stands for Laplacian Eigenmaps objective)
@@ -266,7 +268,7 @@ This is a extensive and continuously updated compilation of graph SSL literature
 
 # Long-range similarities
 
-<details close>
+<details>
     <summary>Long-range similarities</summary>
 
 * Similarity prediction: to predict a similarity matrix between nodes. The pairwise similarity can be defined by shortest path distance, PageRank, Katz index, Jaccard coefficient, $\ell_2$ distance & cosine similarity between output representations / input-output, etc
@@ -296,7 +298,7 @@ This is a extensive and continuously updated compilation of graph SSL literature
 
 # Motifs
 
-<details close>
+<details>
     <summary>Motifs</summary>
 
 * Motif prediction: to assign each node (or supernode in the fragment graph) a motif pseudo-label given by unsupervised motif discovery algorithms (e.g. RDKit) and learn to predict them. It is "autoregressive" if the predicted supernodes are generated one-by-one
@@ -319,7 +321,7 @@ This is a extensive and continuously updated compilation of graph SSL literature
 
 # Clusters
 
-<details close>
+<details>
     <summary>Clusters</summary>
 
 * Synthetic graph discrimination: binary classification between two synthetic graphs with different synthesizers (Erdős-Rényi generator / SBM generator)
@@ -354,7 +356,7 @@ This is a extensive and continuously updated compilation of graph SSL literature
 
 # Global structure
 
-<details close>
+<details>
     <summary>Global structure</summary>
 
 * Global-local instance discrimination: instance discrimination between the representation of each node and a global representation vector, usually aggregated from the whole graph by a readout function
@@ -408,7 +410,7 @@ This is a extensive and continuously updated compilation of graph SSL literature
 
 # Manifolds
 
-<details close>
+<details>
     <summary>Manifolds</summary>
 
 * Cross-manifold discrimination: to perform instance discrimination between different manifolds (e.g. Euclidean vs. Hyperbolic)
@@ -429,7 +431,7 @@ This is a extensive and continuously updated compilation of graph SSL literature
 
 # Task adaptation strategies
 
-<details close>
+<details>
     <summary>Task adaptation strategies</summary>
 
 * Multi-task learning: to combine different pretexts and jointly learn them for task generalizable performance
