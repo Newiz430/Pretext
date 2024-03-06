@@ -1,6 +1,6 @@
 # A Survey on Self-Supervised Pre-Training of Graph Foundation Models: A Knowledge-Based Perspective
 
-This is a extensive and continuously updated compilation of graph SSL literature categorized by the knowledge-based taxonomy, proposed by our paper :page_facing_up:*A Survey on Self-Supervised Pre-Training of Graph Foundation Models: A Knowledge-Based Perspective*. Here every pretext of each paper is listed and briefly explained. You can find all pretexts and their corresponding papers with detailed metadata below, including additional pretexts and literature not listed in our paper. 
+This is an extensive and continuously updated compilation of graph SSL literature categorized by the knowledge-based taxonomy, proposed by our paper :page_facing_up:*A Survey on Self-Supervised Pre-Training of Graph Foundation Models: A Knowledge-Based Perspective*. Here every pretext of each paper is listed and briefly explained. You can find all pretexts and their corresponding papers with detailed metadata below, including additional pretexts and literature not listed in our paper. 
 
 A kind reminder: to search for a certain paper, type the title or the abbreviation of the proposed method (recommended) into the browser search bar (Ctrl + F). Some papers fall under multiple sections. 
 
@@ -22,41 +22,41 @@ A kind reminder: to search for a certain paper, type the title or the abbreviati
 
 # Relevant surveys and empirical studies
 
-> Note: :spider_web: graph-related topic; :globe_with_meridians: LLM-related topic; :microscope: empirical study
+> Note: :spider_web: ​graph-related; :robot: LLM-related; :microscope: empirical study
 
 | Paper                                                        | Venue                             |
 | ------------------------------------------------------------ | --------------------------------- |
 | [Pre-trained Models for Natural Language Processing: A Survey](https://arxiv.org/abs/2003.08271) | SCTS'20                           |
 | [Self-supervised Learning on Graphs: Deep Insights and New Direction](https://arxiv.org/abs/2006.10141):spider_web::microscope: | arXiv:2006                        |
-| [Pretrained Language Models for Text Generation: A Survey](https://arxiv.org/abs/2201.05273):globe_with_meridians: | IJCAI'21                          |
+| [Pretrained Language Models for Text Generation: A Survey](https://arxiv.org/abs/2201.05273):robot: | IJCAI'21                          |
 | [An Empirical Study of Graph Contrastive Learning](https://arxiv.org/abs/2109.01116):spider_web::microscope: | NeurIPS'21                        |
 | [Self-supervised Learning: Generative or Contrastive](https://arxiv.org/abs/2006.08218):spider_web: | TKDE'21                           |
 | [Self-supervised Learning on Graphs: Contrastive, Generative, or Predictive](https://arxiv.org/abs/2105.07342):spider_web: | TKDE'21                           |
 | [A Survey on Contrastive Self-Supervised Learning](https://arxiv.org/abs/2011.00362) | Technologies'21                   |
-| [Pre-Trained Models: Past, Present and Future](https://arxiv.org/abs/2106.07139):globe_with_meridians: | AI Open'21                        |
-| [A Survey of Pretrained Language Models](https://link.springer.com/chapter/10.1007/978-3-031-10986-7_36):globe_with_meridians: | KSEM'22                           |
+| [Pre-Trained Models: Past, Present and Future](https://arxiv.org/abs/2106.07139):robot: | AI Open'21                        |
+| [A Survey of Pretrained Language Models](https://link.springer.com/chapter/10.1007/978-3-031-10986-7_36):robot: | KSEM'22                           |
 | [Contrastive Self-Supervised Learning: A Survey on Different Architectures](https://ieeexplore.ieee.org/abstract/document/9773725) | ICAI'22                           |
-| [A Survey of Pretraining on Graphs: Taxonomy, Methods, and Applications](https://arxiv.org/abs/2202.07893):spider_web: | arXiv:2202                        |
-| [A Survey on Masked Autoencoder for Self-supervised Learning in Vision and Beyond](https://arxiv.org/abs/2208.00173) | arXiv:2208                        |
 | [Graph Self-Supervised Learning: A Survey](https://arxiv.org/abs/2103.00111):spider_web: | TKDE'22                           |
 | [Self-Supervised Learning of Graph Neural Networks: A Unified Review](https://arxiv.org/abs/2102.10757):spider_web: | TPAMI'22                          |
+| [A Survey of Pretraining on Graphs: Taxonomy, Methods, and Applications](https://arxiv.org/abs/2202.07893):spider_web: | arXiv:2202                        |
+| [A Survey on Masked Autoencoder for Self-supervised Learning in Vision and Beyond](https://arxiv.org/abs/2208.00173) | arXiv:2208                        |
 | [A Systematic Survey of Chemical Pre-trained Models](https://arxiv.org/abs/2210.16484):spider_web: | IJCAI'23                          |
-| [Can Language Models Solve Graph Problems in Natural Language?](https://arxiv.org/abs/2305.10037):spider_web::globe_with_meridians::microscope: | NeurIPS'23                        |
-| [Graph Meets LLMs: Towards Large Graph Models](https://arxiv.org/abs/2308.14522):spider_web::globe_with_meridians: | NeurIPS Workshop (GLFrontiers)'23 |
-| [Can LLMs Effectively Leverage Structural Information for Graph Learning: When and Why](https://arxiv.org/abs/2309.16595):spider_web::globe_with_meridians::microscope: | NeurIPS Workshop (GLFrontiers)'23 |
-| [Talk like a Graph: Encoding Graphs for Large Language Models](https://arxiv.org/abs/2310.04560):spider_web::globe_with_meridians::microscope: | NeurIPS Workshop (GLFrontiers)'23 |
-| [Beyond Text: A Deep Dive into Large Language Models’ Ability on Understanding Graph Data​](https://arxiv.org/abs/2310.04944):spider_web::globe_with_meridians::microscope: | NeurIPS Workshop (GLFrontiers)'23 |
-| [Exploring the Potential of Large Language Models (LLMs) in Learning on Graphs](https://arxiv.org/abs/2307.03393):spider_web::globe_with_meridians::microscope: | NeurIPS Workshop (GLFrontiers)'23 |
+| [Can Language Models Solve Graph Problems in Natural Language?](https://arxiv.org/abs/2305.10037):spider_web::robot::microscope: | NeurIPS'23                        |
+| [Graph Meets LLMs: Towards Large Graph Models](https://arxiv.org/abs/2308.14522):spider_web::robot: | NeurIPS Workshop (GLFrontiers)'23 |
+| [Can LLMs Effectively Leverage Structural Information for Graph Learning: When and Why](https://arxiv.org/abs/2309.16595):spider_web::robot::microscope: | NeurIPS Workshop (GLFrontiers)'23 |
+| [Beyond Text: A Deep Dive into Large Language Models’ Ability on Understanding Graph Data​](https://arxiv.org/abs/2310.04944):spider_web::robot::microscope: | NeurIPS Workshop (GLFrontiers)'23 |
+| [Exploring the Potential of Large Language Models (LLMs) in Learning on Graphs](https://arxiv.org/abs/2307.03393):spider_web::robot::microscope: | NeurIPS Workshop (GLFrontiers)'23 |
 | [Self-supervised Learning: A Succinct Review](https://link.springer.com/article/10.1007/s11831-023-09884-2) | Arch. Comput. Methods Eng.'23     |
 | [Self-Supervised Learning for Recommender Systems: A Survey](https://arxiv.org/abs/2203.15876) | TKDE'23                           |
 | [A Survey on Self-supervised Learning: Algorithms, Applications, and Future Trends](https://arxiv.org/abs/2301.05712) | arXiv:2301                        |
 | [To Compress or Not to Compress - Self-Supervised Learning and Information Theory: A Review](https://arxiv.org/abs/2304.09355) | arXiv:2304                        |
-| [GPT4Graph: Can Large Language Models Understand Graph Structured Data? An Empirical Evaluation and Benchmarking](https://arxiv.org/abs/2305.15066):spider_web::globe_with_meridians::microscope: | arXiv:2305                        |
-| [Integrating Graphs with Large Language Models: Methods and Prospects](https://arxiv.org/abs/2310.05499):spider_web::globe_with_meridians: | arXiv:2310                        |
-| [Towards Graph Foundation Models: A Survey and Beyond](https://arxiv.org/abs/2310.11829):spider_web::globe_with_meridians: | arXiv:2310                        |
-| [A Survey of Graph Meets Large Language Model: Progress and Future Directions](https://arxiv.org/abs/2311.12399):spider_web::globe_with_meridians: | arXiv:2311                        |
-| [Graph Prompt Learning: A Comprehensive Survey and Beyond](https://arxiv.org/abs/2311.16534):spider_web::globe_with_meridians: | arXiv:2311                        |
-| [Large Language Models on Graphs: A Comprehensive Survey](https://arxiv.org/abs/2312.02783):spider_web::globe_with_meridians: | arXiv:2312                        |
+| [GPT4Graph: Can Large Language Models Understand Graph Structured Data? An Empirical Evaluation and Benchmarking](https://arxiv.org/abs/2305.15066):spider_web::robot::microscope: | arXiv:2305                        |
+| [Integrating Graphs with Large Language Models: Methods and Prospects](https://arxiv.org/abs/2310.05499):spider_web::robot: | arXiv:2310                        |
+| [Towards Graph Foundation Models: A Survey and Beyond](https://arxiv.org/abs/2310.11829):spider_web::robot: | arXiv:2310                        |
+| [A Survey of Graph Meets Large Language Model: Progress and Future Directions](https://arxiv.org/abs/2311.12399):spider_web::robot: | arXiv:2311                        |
+| [Graph Prompt Learning: A Comprehensive Survey and Beyond](https://arxiv.org/abs/2311.16534):spider_web::robot: | arXiv:2311                        |
+| [Large Language Models on Graphs: A Comprehensive Survey](https://arxiv.org/abs/2312.02783):spider_web::robot: | arXiv:2312                        |
+| [Talk like a Graph: Encoding Graphs for Large Language Models](https://arxiv.org/abs/2310.04560):spider_web::robot::microscope: | ICLR'24                           |
 | [Masked Modeling for Self-supervised Representation Learning on Vision and Beyond](https://arxiv.org/abs/2401.00897) | arXiv:2401                        |
 
 # Node features
@@ -142,11 +142,14 @@ A kind reminder: to search for a certain paper, type the title or the abbreviati
 | [Provable Training for Graph Contrastive Learning](https://arxiv.org/abs/2309.13944) (POT) | NeurIPS'23                 | Instance discrimination (InfoNCE)                 | Node classification                                          | [link](https://github.com/VoidHaruhi/POT-GCL)                |
 | [Graph Contrastive Learning with Stable and Scalable Spectral Encoding](https://openreview.net/forum?id=0kz5RmHxmE) (Sp<sup>2</sup>GCL) | NeurIPS'23                 | Instance discrimination (InfoNCE)                 | Node classification; graph classification; graph regression  | [link](https://github.com/bdy9527/Sp2GCL)                    |
 | [RARE: Robust Masked Graph Autoencoder](https://arxiv.org/abs/2304.01507) | TKDE'23                    | Latent feature matching                           | Node classification; graph classification; image classification | [link](https://github.com/WxTu/RARE)                         |
+| [Hierarchically Contrastive Hard Sample Mining for Graph Self-Supervised Pretraining](https://ieeexplore.ieee.org/abstract/document/10223441) (HCHSM) | TNNLS'23                   | Instance discrimination (JS)                      | Node classification; node clustering                         | [link](https://github.com/WxTu/HCHSM)                        |
 | [Contrastive Graph Prompt-tuning for Cross-domain Recommendation](https://arxiv.org/abs/2308.10685) (PGPRec) | TOIS'23                    | Instance discrimination (InfoNCE)                 | Recommendation                                               | --                                                           |
 | [Scaling Up, Scaling Deep: Blockwise Graph Contrastive Learning](https://arxiv.org/abs/2306.02117) (BlockGCL) | arXiv:2306                 | Dimension discrimination                          | Node classification                                          | [link](https://github.com/EdisonLeeeee/BlockGCL)             |
 | [Enhancing Graph Neural Networks with Structure-Based Prompt](https://arxiv.org/abs/2310.17394) (SAP) | arXiv:2310                 | Instance discrimination (InfoNCE)                 | Node classification; graph classification                    | --                                                           |
 | [Rethinking and Simplifying Bootstrapped Graph Latents](https://arxiv.org/abs/2312.02619) (SGCL<sub>2</sub>) | WSDM'24                    | Instance discrimination (Bootstrapping)           | Node classification                                          | [link](https://github.com/ZsZsZs25/SGCL)                     |
-| [HypeBoy: Generative Self-Supervised Representation Learning on Hypergraphs]() | ICLR'24                    | Instance discrimination (InfoNCE)                 | Node classification; Hyperedge prediction                    | --                                                           |
+| [HypeBoy: Generative Self-Supervised Representation Learning on Hypergraphs](https://openreview.net/forum?id=DZUzOKE6og) | ICLR'24                    | Instance discrimination (InfoNCE)                 | Node classification; Hyperedge prediction                    | --                                                           |
+| [A Graph is Worth 1-bit Spikes: When Graph Contrastive Learning Meets Spiking Neural Networks](https://arxiv.org/abs/2305.19306) (SpikeGCL) | ICLR'24                    | Instance discrimination (Triplet margin)          | Node classification                                          | [link](https://github.com/EdisonLeeeee/SpikeGCL)             |
+| [Self-supervised Heterogeneous Graph Learning: a Homophily and Heterogeneity View](https://openreview.net/forum?id=3FJOKjooIj) (HERO) | ICLR'24                    | Latent feature matching                           | Node classification; similarity search                       | [link](https://github.com/YujieMo/HERO)                      |
 | [HetGPT: Harnessing the Power of Prompt Tuning in Pre-Trained Heterogeneous Graph Neural Networks](https://arxiv.org/abs/2310.15318) | WWW'24                     | Instance discrimination (InfoNCE)                 | Node classification                                          | --                                                           |
 
 </details>
@@ -213,7 +216,7 @@ A kind reminder: to search for a certain paper, type the title or the abbreviati
 | [ULTRA-DP: Unifying Graph Pre-training with Multi-task Graph Dual Prompt](https://arxiv.org/abs/2310.14845) | arXiv:2310                        | Link prediction                          | Node classification; link prediction                         | [link](https://github.com/Keytoyze/ULTRA-DP)                 |
 | [HGPROMPT: Bridging Homogeneous and Heterogeneous Graphs for Few-shot Prompt Learning](https://arxiv.org/abs/2312.01878) | AAAI'24                           | Link prediction                          | Node classification; graph classification                    | [link](https://github.com/Starlien95/HGPrompt)               |
 | [Masked Graph Autoencoder with Non-discrete Bandwidths](https://arxiv.org/abs/2402.03814) | WWW'24                            | Link denoising                           | Node classification; link prediction                         | [link](https://github.com/Newiz430/Bandana)                  |
-| [MultiGPrompt for Multi-Task Pre-Training and Prompting on Graphs](https://arxiv.org/abs/2312.03731) | WWW'24                            | Link prediction                          | Node classification; graph classification                    | --                                                           |
+| [MultiGPrompt for Multi-Task Pre-Training and Prompting on Graphs](https://arxiv.org/abs/2312.03731) | WWW'24                            | Link prediction                          | Node classification; graph classification                    | [link](https://github.com/Nashchou/MultiGPrompt)             |
 
 </details>
 
@@ -407,8 +410,9 @@ A kind reminder: to search for a certain paper, type the title or the abbreviati
 | [Graph Self-Contrast Representation Learning](https://arxiv.org/abs/2309.02304) (GraphSC) | ICDM'23                                  | Global instance discrimination (Triplet margin); global dimension discrimination | Graph classification                                         | --                                                           |
 | [Graph Contrastive Learning with Stable and Scalable Spectral Encoding](https://openreview.net/forum?id=0kz5RmHxmE) (Sp<sup>2</sup>GCL) | NeurIPS'23                               | Global instance discrimination (InfoNCE)                     | Node classification; graph classification; graph regression  | [link](https://github.com/bdy9527/Sp2GCL)                    |
 | [Maximizing Mutual Information Across Feature and Topology Views for Representing Graphs](https://arxiv.org/abs/2105.06715) (MVMI-FT) | TKDE'23                                  | Global-local instance discrimination (JS)                    | Node classification; node clustering                         | [link](https://github.com/xiaolongo/MaxMIAcrossFT)           |
+| [Hierarchically Contrastive Hard Sample Mining for Graph Self-Supervised Pretraining](https://ieeexplore.ieee.org/abstract/document/10223441) (HCHSM) | TNNLS'23                                 | Global-local instance discrimination (JS)                    | Node classification; node clustering                         | [link](https://github.com/WxTu/HCHSM)                        |
 | [Prompt Tuning for Multi-View Graph Contrastive Learning](https://arxiv.org/abs/2310.10362) (PGCL) | arXiv:2310                               | Global instance discrimination (InfoNCE)                     | Node classification; graph classification; link prediction   | --                                                           |
-| [MultiGPrompt for Multi-Task Pre-Training and Prompting on Graphs](https://arxiv.org/abs/2312.03731) | WWW'24                                   | Global-local instance discrimination (InfoNCE); global instance discrimination (InfoNCE) | Node classification; graph classification                    | --                                                           |
+| [MultiGPrompt for Multi-Task Pre-Training and Prompting on Graphs](https://arxiv.org/abs/2312.03731) | WWW'24                                   | Global-local instance discrimination (InfoNCE); global instance discrimination (InfoNCE) | Node classification; graph classification                    | [link](https://github.com/Nashchou/MultiGPrompt)             |
 
 </details>
 
@@ -439,13 +443,13 @@ A kind reminder: to search for a certain paper, type the title or the abbreviati
     <summary>Task adaptation strategies</summary>
 
 * Multi-task learning: to combine different pretexts and jointly learn them for task-generalizable performance
-* Fine-tuning: to jointly learn the downstream branches as well as the original pre-trained model. Parameter-efficient fine-tuning (PEFT) only updates part of the pre-trained model, e.g. adapter layers
+* Fine-tuning: to jointly learn downstream branches as well as the original pre-trained model. Parameter-efficient fine-tuning (PEFT) only updates part of the pre-trained model, e.g. adapter layers
 * Probing: to freeze the parameters of the pre-trained model during the downstream task adaptation. The probe can be either parameterized or non-parameterized
-* Prompting: to encode downstream data and the corresponding task information as tokens to instruct the behavior of pre-trained models for downstream adaptation (more information [here](https://github.com/WxxShirley/Awesome-Graph-Prompt))
+* Prompting: to encode downstream data and the corresponding task information as tokens to instruct the behavior of pre-trained models for downstream adaptation (more details [here](https://github.com/WxxShirley/Awesome-Graph-Prompt))
 
 | Paper                                                        | Venue      | Strategy                             | Downstream                                                   | Code                                                  |
 | ------------------------------------------------------------ | ---------- | ------------------------------------ | ------------------------------------------------------------ | ----------------------------------------------------- |
-| [Learning to Pre-train Graph Neural Networks]() (L2P-GNN)    | AAAI'21    | Fine-tuning                          | Graph classification; biological function prediction         | [link](https://github.com/rootlu/L2P-GNN)             |
+| [Learning to Pre-train Graph Neural Networks](https://ojs.aaai.org/index.php/AAAI/article/view/16552) (L2P-GNN)    | AAAI'21    | Fine-tuning                          | Graph classification; biological function prediction         | [link](https://github.com/rootlu/L2P-GNN)             |
 | [Adaptive Transfer Learning on Graph Neural Networks](https://arxiv.org/abs/2107.08765) (AUX-TS) | KDD'21     | Fine-tuning                          | Node classification; link prediction                         | [link](https://github.com/Sean-Huang65/AUX-TS)        |
 | [Automated Self-Supervised Learning for Graphs](https://arxiv.org/abs/2106.05470) (AutoSSL) | ICLR'22    | Multi-task learning                  | Node classification; node clustering                         | [link](https://github.com/ChandlerBang/AutoSSL)       |
 | [Fine-Tuning Graph Neural Networks via Graph Topology induced Optimal Transport](https://arxiv.org/abs/2203.10453) (GTOT) | IJCAI'22   | Fine-tuning                          | Graph classification                                         | [link](https://github.com/youjibiying/GTOT-Tuning)    |
@@ -473,13 +477,15 @@ A kind reminder: to search for a certain paper, type the title or the abbreviati
 | [Efficient Large Language Models Fine-Tuning On Graphs](https://arxiv.org/abs/2312.04737) (LEADING) | arXiv:2312 | Fine-tuning (LLM)                    | Node classification                                          | --                                                    |
 | [Fine-tuning Graph Neural Networks by Preserving Graph Generative Patterns](https://arxiv.org/abs/2312.13583) (G-Tuning) | AAAI'24    | Fine-tuning                          | Graph classification                                         | [link](https://github.com/zjunet/G-Tuning)            |
 | [HGPROMPT: Bridging Homogeneous and Heterogeneous Graphs for Few-shot Prompt Learning](https://arxiv.org/abs/2312.01878) | AAAI'24    | Prompting                            | Node classification; graph classification                    | [link](https://github.com/Starlien95/HGPrompt)        |
+| [Decoupling Weighing and Selecting for Integrating Multiple Graph Pre-training Tasks](https://arxiv.org/abs/2403.01400) (WAS) | ICLR'24    | Multi-task learning                  | Node classification; graph classification                    | [link](https://github.com/TianyuFan0504/WAS)          |
 | [Harnessing Explanations: LLM-to-LM Interpreter for Enhanced Text-Attributed Graph Representation Learning](https://arxiv.org/abs/2305.19523) (TAPE) | ICLR'24    | Probing; Prompting (LLM)<sup>1</sup> | Node classification; link prediction                         | [link](https://github.com/XiaoxinHe/TAPE)             |
 | [Label-free Node Classification on Graphs with Large Language Models (LLMs)](https://arxiv.org/abs/2310.04668) (LLM-GNN) | ICLR'24    | Probing; Prompting (LLM)<sup>1</sup> | Node classification; link prediction                         | [link](https://github.com/CurryTang/LLMGNN)           |
 | [One for All: Towards Training One Graph Model for All Classification Tasks](https://arxiv.org/abs/2310.00149) (OFA) | ICLR'24    | Prompting                            | Node classification; graph classification; link prediction   | [link](https://github.com/LechengKong/OneForAll)      |
-| [MultiGPrompt for Multi-Task Pre-Training and Prompting on Graphs](https://arxiv.org/abs/2312.03731) | WWW'24     | Prompting                            | Node classification; graph classification                    | --                                                    |
-| [HetGPT: Harnessing the Power of Prompt Tuning in Pre-Trained Heterogeneous Graph Neural Networks](https://arxiv.org/abs/2310.15318) | WWW'24     | Prompting                            | Node classification                                          | --                                                    |
 | [Endowing Pre-trained Graph Models with Provable Fairness](https://www.arxiv.org/abs/2402.12161) (GraphPAR) | WWW'24     | Fine-tuning (PEFT)                   | Node classification                                          | [link](https://github.com/BUPT-GAMMA/GraphPAR)        |
+| [MultiGPrompt for Multi-Task Pre-Training and Prompting on Graphs](https://arxiv.org/abs/2312.03731) | WWW'24     | Prompting                            | Node classification; graph classification                    | [link](https://github.com/Nashchou/MultiGPrompt)      |
+| [HetGPT: Harnessing the Power of Prompt Tuning in Pre-Trained Heterogeneous Graph Neural Networks](https://arxiv.org/abs/2310.15318) | WWW'24     | Prompting                            | Node classification                                          | --                                                    |
 | [GraphPro: Graph Pre-training and Prompt Learning for Recommendation](https://arxiv.org/abs/2311.16716) | WWW'24     | Prompting                            | Recommendation                                               | [link](https://github.com/HKUDS/GraphPro)             |
+| [Efficient Tuning and Inference for Large Language Models on Textual Graphs](https://arxiv.org/abs/2401.15569) (ENGINE) | arXiv:2401 | Fine-tuning (LLM)                    | Node classification; link prediction                         | [link](https://github.com/ZhuYun97/ENGINE)            |
 | [All in One and One for All: A Simple yet Effective Method towards Cross-domain Graph Pretraining](https://arxiv.org/abs/2402.09834) (GCOPE) | arXiv:2402 | Prompting                            | Node classification                                          | --                                                    |
 
 </details>
