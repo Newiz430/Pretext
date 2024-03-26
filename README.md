@@ -1,6 +1,6 @@
 # A Survey on Self-Supervised Pre-Training of Graph Foundation Models: A Knowledge-Based Perspective
 
-This is an extensive and continuously updated compilation of graph SSL literature categorized by the knowledge-based taxonomy, proposed by our paper :page_facing_up:[*A Survey on Self-Supervised Pre-Training of Graph Foundation Models: A Knowledge-Based Perspective*](). Here every pretext of each paper is listed and briefly explained. You can find all pretexts and their corresponding papers with detailed metadata below, including additional pretexts and literature not listed in our paper. 
+This is an extensive and continuously updated compilation of graph SSL literature categorized by the knowledge-based taxonomy, proposed by our paper :page_facing_up:[*A Survey on Self-Supervised Pre-Training of Graph Foundation Models: A Knowledge-Based Perspective*](https://arxiv.org/abs/2403.16137). Here every pretext of each paper is listed and briefly explained. You can find all pretexts and their corresponding papers with detailed metadata below, including additional pretexts and literature not listed in our paper. 
 
 A kind reminder: to search for a certain paper, type the title or the abbreviation of the proposed method (recommended) into the browser search bar (Ctrl + F). Some papers fall under multiple sections. 
 
