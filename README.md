@@ -8,7 +8,7 @@ A kind reminder: to search for a certain paper, type the title or the abbreviati
 
 **[2 Sept 2024]**: Updated IJCAI'24, SIGIR'24, and KDD'24 papers.
 
-**[1 Aug 2024]**: **We have a huge update thanks to the joining of [Dr. Yixin Su](https://github.com/ethanmock)! Please check the new version of our survey [here](https://arxiv.org/abs/2403.16137)! **:fire:
+**[1 Aug 2024]**: **We have a huge update thanks to the joining of [Dr. Yixin Su](https://github.com/ethanmock)! Please check the new version of our survey [here](https://arxiv.org/abs/2403.16137)!** :fire:
 
 **[1 Aug 2024]**: Updated ICDE'24 and MM'24 papers.
 
