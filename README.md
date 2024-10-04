@@ -18,7 +18,7 @@ A kind reminder: to search for a certain paper, type the title or the abbreviati
 
 # Contents
 
-* [Relevant surveys, benchmarks & empirical studies](##relevant-surveys-benchmarks--empirical-studies)
+* [Relevant surveys, benchmarks & empirical studies](#relevant-surveys-benchmarks--empirical-studies)
 
 * Microscopic knowledge
   * [Node features](#node-features)
