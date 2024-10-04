@@ -18,7 +18,7 @@ A kind reminder: to search for a certain paper, type the title or the abbreviati
 
 # Contents
 
-* [Relevant surveys and empirical studies](#relevant-surveys-and-empirical-studies)
+* [Relevant surveys, benchmarks & empirical studies](##relevant-surveys-benchmarks--empirical-studies)
 
 * Microscopic knowledge
   * [Node features](#node-features)
@@ -39,7 +39,7 @@ A kind reminder: to search for a certain paper, type the title or the abbreviati
 
 * [Task generalization strategies](#task-generalization-strategies)
 
-# Relevant surveys, benchmarks & empirical studies
+# Relevant surveys benchmarks & empirical studies
 
 > Note: :spider_web: graph-related; :robot: LLM-related; :bar_chart: benchmark; :microscope: empirical study
 
