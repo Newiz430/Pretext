@@ -39,9 +39,9 @@ A kind reminder: to search for a certain paper, type the title or the abbreviati
 
 * [Task generalization strategies](#task-generalization-strategies)
 
-# Relevant surveys and empirical studies
+# Relevant surveys, benchmarks & empirical studies
 
-> Note: :spider_web: ​graph-related; :robot: LLM-related; :microscope: empirical study
+> Note: :spider_web: graph-related; :robot: LLM-related; :bar_chart: benchmark; :microscope: empirical study
 
 | Paper                                                        | Venue                             |
 | ------------------------------------------------------------ | --------------------------------- |
@@ -55,7 +55,7 @@ A kind reminder: to search for a certain paper, type the title or the abbreviati
 | [Pre-Trained Models: Past, Present and Future](https://arxiv.org/abs/2106.07139):robot: | AI Open'21                        |
 | [A Survey of Pretrained Language Models](https://link.springer.com/chapter/10.1007/978-3-031-10986-7_36):robot: | KSEM'22                           |
 | [Contrastive Self-Supervised Learning: A Survey on Different Architectures](https://ieeexplore.ieee.org/abstract/document/9773725) | ICAI'22                           |
-| [Graph Self-Supervised Learning: A Survey](https://arxiv.org/abs/2103.00111):spider_web: | TKDE'22                           |
+| [Graph Self-Supervised Learning: A Survey](https://arxiv.org/abs/2103.00111):spider_web::bar_chart: | TKDE'22                           |
 | [Self-Supervised Learning of Graph Neural Networks: A Unified Review](https://arxiv.org/abs/2102.10757):spider_web: | TPAMI'22                          |
 | [A Survey of Pretraining on Graphs: Taxonomy, Methods, and Applications](https://arxiv.org/abs/2202.07893):spider_web: | arXiv:2202                        |
 | [A Survey on Masked Autoencoder for Self-supervised Learning in Vision and Beyond](https://arxiv.org/abs/2208.00173) | arXiv:2208                        |
@@ -74,6 +74,9 @@ A kind reminder: to search for a certain paper, type the title or the abbreviati
 | [A Survey of Graph Meets Large Language Model: Progress and Future Directions](https://arxiv.org/abs/2311.12399):spider_web::robot: | IJCAI'24                          |
 | [Position: Graph Foundation Models are Already Here](https://arxiv.org/abs/2402.02216):spider_web::robot: | ICML'24                           |
 | [A Survey of Large Language Models for Graphs](https://arxiv.org/abs/2405.08011):spider_web::robot: | KDD'24                            |
+| [ProG: A Graph Prompt Learning Benchmark](https://arxiv.org/abs/2406.05346):spider_web::bar_chart: | NeurIPS'24                        |
+| [GLBench: A Comprehensive Benchmark for Graph with Large Language Models](https://arxiv.org/abs/2407.07457):spider_web::robot::bar_chart: | NeurIPS'24                        |
+| [Text-space Graph Foundation Models: Comprehensive Benchmarks and New Insights](https://arxiv.org/abs/2406.10727):spider_web::robot::bar_chart::microscope: | NeurIPS'24                        |
 | [Exploring the Potential of Large Language Models (LLMs) in Learning on Graphs](https://arxiv.org/abs/2307.03393):spider_web::robot::microscope: | KDD Explorations Newsletter'24    |
 | [Integrating Graphs with Large Language Models: Methods and Prospects](https://arxiv.org/abs/2310.05499):spider_web::robot: | IEEE Intell. Syst.'24             |
 | [Can LLMs Effectively Leverage Graph Structural Information through Prompts, and Why?](https://arxiv.org/abs/2309.16595):spider_web::robot::microscope: | TMLR'24                           |
@@ -81,11 +84,14 @@ A kind reminder: to search for a certain paper, type the title or the abbreviati
 | [Masked Modeling for Self-supervised Representation Learning on Vision and Beyond](https://arxiv.org/abs/2401.00897) | arXiv:2401                        |
 | [Advancing Graph Representation Learning with Large Language Models: A Comprehensive Survey of Techniques](https://arxiv.org/abs/2402.05952):spider_web::robot: | arXiv:2402                        |
 | [Towards Versatile Graph Learning Approach: from the Perspective of Large Language Models](https://arxiv.org/abs/2402.11641):spider_web::robot: | arXiv:2402                        |
+| [Overcoming Pitfalls in Graph Contrastive Learning Evaluation: Toward Comprehensive Benchmarks](https://arxiv.org/abs/2402.15680):spider_web::bar_chart: | arXiv:2402                        |
 | [*A Survey on Self-Supervised Graph Foundation Models: Knowledge-Based Perspective*](https://arxiv.org/abs/2403.16137):spider_web::robot: | arXiv:2403                        |
 | [Graph Machine Learning in the Era of Large Language Models (LLMs)](https://arxiv.org/abs/2404.14928):spider_web::robot: | arXiv:2404                        |
 | [Towards Graph Contrastive Learning: A Survey and Beyond](https://arxiv.org/abs/2405.11868):spider_web: | arXiv:2405                        |
-| [GraphFM: A Comprehensive Benchmark for Graph Foundation Model](https://arxiv.org/abs/2406.08310):spider_web::microscope: | arXiv:2406                        |
-| [Text-space Graph Foundation Models: Comprehensive Benchmarks and New Insights](https://arxiv.org/abs/2406.10727):spider_web::robot::microscope: | arXiv:2406                        |
+| [GraphFM: A Comprehensive Benchmark for Graph Foundation Model](https://arxiv.org/abs/2406.08310):spider_web::bar_chart::microscope: | arXiv:2406                        |
+| [GraphEval2000: Benchmarking and Improving Large Language Models on Graph Datasets](https://arxiv.org/abs/2406.16176):spider_web::robot::bar_chart: | arXiv:2406                        |
+
+
 
 # Node features
 
