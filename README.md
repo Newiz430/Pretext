@@ -1,4 +1,4 @@
-A Survey on Self-Supervised Graph Foundation Models: Knowledge-Based Perspective
+# A Survey on Self-Supervised Graph Foundation Models: Knowledge-Based Perspective
 
 This is an extensive and continuously updated compilation of self-supervised GFM literature categorized by the knowledge-based taxonomy, proposed by our TKDE paper :page_facing_up:[*A Survey on Self-Supervised Graph Foundation Models: Knowledge-Based Perspective*](https://arxiv.org/abs/2403.16137). Here every pretext of each paper is listed and briefly explained. You can find all pretexts and their corresponding papers with detailed metadata below, including additional pretexts and literature not listed in our paper. 
 
@@ -35,6 +35,7 @@ A kind reminder: to search for a certain paper, type the title or the abbreviati
   * [Manifolds](#manifolds)
 * [Multi-task pre-training](#multi-task-pre-training)
 * [Downstream tuning](#downstream-tuning)
+* [Graph language models](#graph-language-models)
 
 # Relevant surveys, benchmarks & empirical studies
 
@@ -675,6 +676,7 @@ A kind reminder: to search for a certain paper, type the title or the abbreviati
 
 <details open>
     <summary>Downstream tuning</summary>
+
 * Fine-tuning: to jointly learn downstream branches as well as the original pre-trained model. Parameter-efficient fine-tuning (PEFT) only updates part of the pre-trained model, e.g. adapter layers or pruned networks
 * Prompting: to construct task-specific prompts as model input for downstream tuning/prompting
 
@@ -739,10 +741,10 @@ A kind reminder: to search for a certain paper, type the title or the abbreviati
 | [GCoT: Chain-of-Thought Prompt Learning for Graphs](https://arxiv.org/abs/2502.08092) | arXiv:2502      | Prompting                     | Node classification; graph classification                    | --                                                           |
 </details>
 
-# Graph Language Models
+# Graph language models
 
 <details open>
-    <summary>Downstream tuning</summary>
+    <summary>Graph language models</summary>
 
 * Autoregressive language modeling (AR): to predict the next token in a sequence based on previous tokens
 * Masked language modeling (MLM): to predicts masked tokens based on the context
