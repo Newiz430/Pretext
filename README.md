@@ -755,23 +755,23 @@ A kind reminder: to search for a certain paper, type the title or the abbreviati
 
 > Note: :spider_web: graph model (GNN/GT/...); :robot: language model (LM/LLM); :chart_with_upwards_trend: parameter-efficient fine-tuning module (adapter);  :memo: pure prompting without any parameter update
 >
-> ":train:Training" refers to the **self-supervised** pre-training phase, mostly for LLMs or other large model components. An empty "Training strategy" mostly indicates that pre-trained LLMs are used and kept frozen. Alternatively, ":notes:Tuning" can refer to all kinds of post-training processes, including fine-tuning/instruction tuning/training of some smaller, auxiliary modules, both supervised and self-supervised.
+> " :train: Training" refers to the **self-supervised** pre-training phase, mostly for LLMs or other large model components. An empty "Training strategy" mostly indicates that pre-trained LLMs are used and kept frozen. Alternatively, " :notes: Tuning" can refer to all kinds of post-training processes, including fine-tuning/instruction tuning/training of some smaller, auxiliary modules, both supervised and self-supervised.
 >
 > Example 1: training of TAPE can be divided into **3 phases**:
 >
-> * LLM pre-training (":robot::train:Training"): a pre-trained GPT-3.5 is directly utilized
-> * LM fine-tuning (":robot::notes:Tuning"): a pre-trained DeBERTa is fine-tuned with LLM-generated explanations
-> * Downstream GNN training (":spider_web::notes:Tuning"): a RevGAT is trained using the enhanced textual features
+> * LLM pre-training (" :robot::train: Training"): a pre-trained GPT-3.5 is directly utilized
+> * LM fine-tuning (" :robot::notes: Tuning"): a pre-trained DeBERTa is fine-tuned with LLM-generated explanations
+> * Downstream GNN training (" :spider_web::notes: Tuning"): a RevGAT is trained using the enhanced textual features
 >
 > Example 2: training of GraphAdapter can also be divided into **3 phases**:
 >
-> * LM pre-training (":robot::train:Training"): a pre-trained BERT/RoBERTa/GPT-2/LLaMA 2 is directly utilized
+> * LM pre-training (" :robot::train: Training"): a pre-trained BERT/RoBERTa/GPT-2/LLaMA 2 is directly utilized
 >
-> * GNN adapter "pre-training" (":spider_web::notes:Tuning"): a GraphSAGE and a MLP fusion module are trained with LM frozen
+> * GNN adapter "pre-training" (" :spider_web::notes: Tuning"): a GraphSAGE and a MLP fusion module are trained with LM frozen
 >
->   (:warning:Side note: "GNN adapters" are considered as part of LLM+GNN architectures instead of a PEFT component.)
+>   ( :warning: Side note: "GNN adapters" are considered as part of LLM+GNN architectures instead of a PEFT component.)
 >   
-> * Instruction tuning (":spider_web::notes:Tuning"): the GraphSAGE and fusion module are fine-tuned by task-specific prompts
+> * Instruction tuning (" :spider_web::notes: Tuning"): the GraphSAGE and fusion module are fine-tuned by task-specific prompts
 
 
 | Paper                                                        | Venue                        | :train:Training strategy                                     | :notes:Tuning strategy                                       | Downstream                                                   | Code                                                         |
