@@ -8,14 +8,14 @@ A kind reminder: to search for a certain paper, type the title or the abbreviati
 
 # News
 
-* **[7 May 2025]**: [Full version](https://arxiv.org/abs/2403.16137) (v3) of our paper uploaded to arXiv! Check now!:fire:
-* **[3 May 2025]**: **Our paper is accepted in TKDE! :fire::fire::fire:Final version coming soon!**
+* **[7 May 2025]**: [Full version](https://arxiv.org/abs/2403.16137) (v3) of our paper uploaded to arXiv! Check now! :fire:
+* **[3 May 2025]**: **Our paper is accepted in TKDE! :fire::fire::fire: Final version coming soon!**
 * **[3 May 2025]**: Updated papers in AAAI'25, NAACL'25 and more. Rearranged "Graph Language Models" to be more detailed and accurate. 
 * **[8 Feb 2025]**: Updated papers in ICLR'25, WWW'25 and more.
 * **[5 Dec 2024]**: Updated papers in WSDM'25, LoG'24 and more.
 * **[4 Oct 2024]**: Updated papers in CIKM'24 and NeurIPS'24.
 * **[2 Sept 2024]**: Updated papers in IJCAI'24, SIGIR'24, and KDD'24.
-* **[1 Aug 2024]**: **We have a huge update (v2) thanks to the joining of [Dr. Yixin Su](https://github.com/ethanmock)! **:fire:
+* **[1 Aug 2024]**: **We have a huge update (v2) thanks to the joining of [Dr. Yixin Su](https://github.com/ethanmock)!** :fire:
 * **[1 Aug 2024]**: Updated papers in ICDE'24 and MM'24.
 * **[24 Mar 2024]**: Our survey has uploaded to arXiv! 
 
