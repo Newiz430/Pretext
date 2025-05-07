@@ -1,18 +1,21 @@
 # A Survey on Self-Supervised Graph Foundation Models: Knowledge-Based Perspective
 
-This is an extensive and continuously updated compilation of self-supervised GFM literature categorized by the knowledge-based taxonomy, proposed by our TKDE paper :page_facing_up:[*A Survey on Self-Supervised Graph Foundation Models: Knowledge-Based Perspective*](https://arxiv.org/abs/2403.16137). Here every pretext of each paper is listed and briefly explained. You can find all pretexts and their corresponding papers with detailed metadata below, including additional pretexts and literature not listed in our paper. 
+This is an extensive and continuously updated compilation of self-supervised GFM literature categorized by the knowledge-based taxonomy, proposed by our TKDE paper :page_facing_up:**A Survey on Self-Supervised Graph Foundation Models: Knowledge-Based Perspective** [arXiv (full)](https://arxiv.org/abs/2403.16137) | [IEEE Xplore](https://doi.org/10.1109/TKDE.2025.3568147). Here every pretext of each paper is listed and briefly explained. You can find all pretexts and their corresponding papers with detailed metadata below, including additional pretexts and literature not listed in our paper. 
 
 A kind reminder: to search for a certain paper, type the title or the abbreviation of the proposed method (recommended) into the browser search bar (Ctrl + F). :warning:Some papers fall under multiple sections. 
 
+![](fig/framework.png)
+
 # News
 
+* **[7 May 2025]**: [Full version](https://arxiv.org/abs/2403.16137) (v3) of our paper uploaded to arXiv! Check now!:fire:
 * **[3 May 2025]**: **Our paper is accepted in TKDE! :fire::fire::fire:Final version coming soon!**
 * **[3 May 2025]**: Updated papers in AAAI'25, NAACL'25 and more. Rearranged "Graph Language Models" to be more detailed and accurate. 
 * **[8 Feb 2025]**: Updated papers in ICLR'25, WWW'25 and more.
 * **[5 Dec 2024]**: Updated papers in WSDM'25, LoG'24 and more.
 * **[4 Oct 2024]**: Updated papers in CIKM'24 and NeurIPS'24.
 * **[2 Sept 2024]**: Updated papers in IJCAI'24, SIGIR'24, and KDD'24.
-* **[1 Aug 2024]**: **We have a huge update thanks to the joining of [Dr. Yixin Su](https://github.com/ethanmock)! Please check the new version of our survey [here](https://arxiv.org/abs/2403.16137)!**:fire:
+* **[1 Aug 2024]**: **We have a huge update (v2) thanks to the joining of [Dr. Yixin Su](https://github.com/ethanmock)! **:fire:
 * **[1 Aug 2024]**: Updated papers in ICDE'24 and MM'24.
 * **[24 Mar 2024]**: Our survey has uploaded to arXiv! 
 
@@ -735,7 +738,7 @@ A kind reminder: to search for a certain paper, type the title or the abbreviati
 | [GraphCLIP: Enhancing Transferability in Graph Foundation Models for Text-Attributed Graphs](https://arxiv.org/abs/2410.10329) | WWW'25          | Prompting                     | Node classification; link prediction                         | [link](https://github.com/ZhuYun97/GraphCLIP)                |
 | [DAGPrompT: Pushing the Limits of Graph Prompting with a Distribution-aware Graph Prompt Tuning Approach](https://arxiv.org/abs/2501.15142) | WWW'25          | Prompting                     | Node classification; graph classification                    | [link](https://github.com/Cqkkkkkk/DAGPrompT)                |
 | [SAMGPT: Text-free Graph Foundation Model for Multi-domain Pre-training and Cross-domain Adaptation](https://arxiv.org/abs/2502.05424) | WWW'25          | Prompting                     | Node classification; graph classification                    | [link](https://github.com/blue-soda/SAMGPT)                  |
-| [Fairness-aware Prompt Tuning for Graph Neural Networks](https://openreview.net/forum?id=5T5lHzF8FM) (FPrompt) | WWW'25          | Fine-tuning (PEFT); Prompting | Node classification                                          | --                                                           |
+| [Fairness-aware Prompt Tuning for Graph Neural Networks](https://openreview.net/forum?id=5T5lHzF8FM) (FPrompt) | WWW'25          | Fine-tuning (PEFT); prompting | Node classification                                          | --                                                           |
 | [Instance-Aware Graph Prompt Learning](https://arxiv.org/abs/2411.17676) (IA-GPL) | TMLR'25         | Prompting                     | Graph classification                                         | [link](https://github.com/lijiazheng0917/IA-GPL)             |
 | [Graph Prompt Clustering](https://ieeexplore.ieee.org/document/10935718) (GPC) | TPAMI'25        | Prompting                     | Node clustering                                              | --                                                           |
 | [GCoT: Chain-of-Thought Prompt Learning for Graphs](https://arxiv.org/abs/2502.08092) | arXiv:2502      | Prompting                     | Node classification; graph classification                    | --                                                           |
